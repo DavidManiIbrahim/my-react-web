@@ -5,9 +5,9 @@
   text-align: center;
 } */
 
-body{
+/* body{
   overflow: hidden;
-}
+} */
 
 div{
   overflow: hidden;
@@ -65,37 +65,39 @@ ul li a:hover{
 
 main{
   display: none;
-  border: 1px solid;
-  height: 70vh;
+  /* border: 1px solid; */
+  height: 80vh;
   width: 80%;
   margin: auto;
   position: relative;
-  bottom: 80px;
+  bottom: 100px;
   display: flex;
 }
 
 .image-container, .text-container{
   height: 100%;
-  background-color: lightblue;
+  border: none;
+  /* background-color: lightblue; */
 }
 
-.image-container{
-  background-image: url(./assets/pexels-ardit-mbrati-LION.png );
-  background-size: contain;
-  /* width: 100vw; */
-  background-attachment: local;
-  background-repeat: no-repeat;
-  background-origin: 0;
+img{
+  background-image: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.text-container{
+  padding: 50px;
 }
 
 /* footer */
 
 footer{
-  /* border: 1px solid; */
+  /* border: 1px solid #eee; */
   position: relative;
-  bottom: 10%;
-  display: none;
-  text-align: center;
+  bottom: 15%;
+  /* display: none; */
+  /* text-align: center; */
   padding: 20px;
 }
 
