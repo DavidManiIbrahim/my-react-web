@@ -19,6 +19,7 @@ div{
   height: 100vh;
 }
 
+
 header{
   /* border: 1px solid red; */
   width: 100%;
@@ -33,11 +34,11 @@ h1{
   left: 20px;
 }
 
-ul{
-  float: right;
-  width: 30%;
+/* ul{ */
+  /* float: right; */
+  /* width: 30%; */
   /* border: 1px solid; */
-  position: relative;
+  /* position: relative;
   bottom: 110px;
   gap: 30px;
   display: flex;
@@ -59,11 +60,11 @@ ul li a:hover{
   color: #fff;
   font-size: large;
 
-}
+} */
 
 /* container styles */
 
-main{
+/* main{
   display: none;
   /* border: 1px solid; */
   height: 80vh;
@@ -72,13 +73,13 @@ main{
   position: relative;
   bottom: 100px;
   display: flex;
-}
+} */
 
-.image-container, .text-container{
-  height: 100%;
-  border: none;
+/* .image-container, .text-container{ */
+  /* height: 100%; */
+  /* border: none; */
   /* background-color: lightblue; */
-}
+/* }
 
 img{
   background-image: contain;
@@ -88,17 +89,17 @@ img{
 
 .text-container{
   padding: 50px;
-}
+} */
 
 /* footer */
 
-footer{
+/* footer{ */
   /* border: 1px solid #eee; */
-  position: relative;
-  bottom: 15%;
+  /* position: relative; */
+  /* bottom: 15%; */
   /* display: none; */
   /* text-align: center; */
-  padding: 20px;
-}
-
+  /* padding: 20px; */
+/* }
+ */
 
